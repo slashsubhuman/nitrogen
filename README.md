@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>NITROGEN</title>
+<title>NITROGEN</title>
 	<style>
 		body {
 			font-family: Arial, sans-serif;
@@ -20,19 +16,3 @@
 			margin: 0;
 		}
 	</style>
-</head>
-<body>
-	<h1 id="rainbowText">Rainbow Text</h1>
-
-	<script>
-		const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
-		const rainbowText = document.getElementById('rainbowText');
-		let index = 0;
-
-		setInterval(() => {
-			rainbowText.style.color = colors[index];
-			index = (index + 1) % colors.length;
-		}, 500);
-	</script>
-</body>
-</html>
